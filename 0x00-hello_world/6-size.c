@@ -12,7 +12,7 @@ int main(void)
 	char b;
 	long int y;
 	float z;
-	long long int;
+	long long int p;
 
 	printf("Size of int: %lu byte(s)\n", (unsigned long)sizeof(x));
 	printf("Size of char: %lu byte(s)\n", (unsigned long)sizeof(b));
