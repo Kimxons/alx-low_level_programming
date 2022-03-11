@@ -105,4 +105,28 @@ main:
     .size   main, .-main
     .ident  "GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609"
     .section    .note.GNU-stack,"",@progbits
-julien@ubuntu:~/c/0x00$  
+julien@ubuntu:~/c/0x00$
+
+3. Name
+mandatory
+Write a script that compiles a C file and creates an executable named cisfun.
+
+The C file name will be saved in the variable $CFILE
+julien@ubuntu:~/c/0x00$ export CFILE=main.c
+julien@ubuntu:~/c/0x00$ cat main.c
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    return (0);
+}
+julien@ubuntu:~/c/0x00$ ./3-name 
+julien@ubuntu:~/c/0x00$ ls
+0-preprocessor  1-compiler   3-name  cisfun  main.o  Makefile
+100-intel       2-assembler  c       main.c  main.s
+julien@ubuntu:~/c/0x00$   
