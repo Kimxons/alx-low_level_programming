@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  * Return: Always 0 (Success)
+ * 
  */
 
 int main(void)
@@ -20,7 +21,7 @@ int main(void)
 		if (i == 49)
 			printf("%ld\n", fibonacci[i]);
 		else
-			printf("%ld, ", fibonacci[i]);
+		printf("%ld, ", fibonacci[i]);
 	}
 
 	return (0);
