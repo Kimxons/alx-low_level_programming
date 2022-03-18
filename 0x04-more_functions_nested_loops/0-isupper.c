@@ -9,10 +9,12 @@
 /* function prototype*/
 int _isupper(int c)
 {
-    char i;
+    //char i;
+    char i = 'A';
     int isupper = 0;
 
-    for (i = 'A'; i <= 'Z'; i++)
+   // for (i = 'A'; i <= 'Z'; i++)
+   for (; i <='Z'; i++)
     {
         if (c == i)
         {
